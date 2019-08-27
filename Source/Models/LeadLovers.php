@@ -16,7 +16,7 @@ class LeadLovers
     public function __construct()
     {
         $this->acUrl = "http://llapi.leadlovers.com/webapi";
-        $this->acKey = '25F1243097734B7F8A56D77F9D3B9141';
+        $this->acKey = '';
         $this->output = "json";
         $this->params = [];
     }
