@@ -76,7 +76,6 @@ class LeadLovers
             "Score" => $score
         ];
 
-
         $this->post();
     }
     /**
@@ -125,11 +124,6 @@ class LeadLovers
             "SequenceLevelCode" => $sequenceLevelCode,
             "Source" => $source,
         ];
-
-        // foreach ($listId AS $lists) {
-        //     $this->params["p[{$lists}]"] = $lists;
-        //     $this->params["status[{$lists}]"] = 1;
-        // }
 
         if (!empty($comaTags)) {
             $this->params["Tag"] = $comaTags;
