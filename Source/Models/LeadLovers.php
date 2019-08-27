@@ -2,6 +2,13 @@
 
 namespace Source\Models;
 
+/**
+ * LeadLovers: Classe de integração com o LeadLovers
+ * E-mail marketing  via API você poderá adicionar leads e tags, consultar maquinas, sequencia de emails e tags.
+ 
+ * @author Marcos Andrade <marquim_sb@hotmail.comr>
+ * @link https://www.fokusf5.com.br/ Saiba mais
+ * @copyright (c) 2019,Marcos A Andrade **/
 class LeadLovers
 {
 
